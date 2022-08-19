@@ -1,17 +1,17 @@
 ---
 layout: home
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: Capgemini
+  text: Capgemini 青年人才培养
+  tagline: 学习资源
   image:
-    src: /logo.jpg
+    src: /logo.svg
     alt: VitePress
   actions:
     - theme: brand
-      text: Get Started
+      text: 了解我们
       link: /guide/what-is-vitepress
     - theme: alt
-      text: View on GitHub
+      text: 其他资源
       link: https://github.com/vuejs/vitepress
 ---

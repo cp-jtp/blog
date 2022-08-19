@@ -4,4 +4,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:lzdFeiFei/lzdfeifei.github.io.git main:main
+git push -f git@github.com:cp-jtp/jtp-resources.git main:main

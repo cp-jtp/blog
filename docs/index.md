@@ -15,3 +15,9 @@ hero:
       text: 其他资源
       link: https://github.com/vuejs/vitepress
 ---
+
+<script setup>
+import Parallax from '../components/Parallax/index.vue'
+</script>
+
+<Parallax />

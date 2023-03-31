@@ -1,11 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="marks-title">BookMarks</div>
-    <div
-      class="marks-category--wrapper"
-      v-for="(item, index) in bookmarks"
-      :key="index"
-    >
+    <div class="marks-category--wrapper" v-for="(item, index) in bookmarks" :key="index">
       <div class="marks-category">{{ item.category }}</div>
       <BookMarksItem :marks="item.marks"></BookMarksItem>
     </div>
@@ -13,8 +9,8 @@
 </template>
 
 <script setup>
-import bookmarks from "../../bookmarks.json";
-import BookMarksItem from "./BookMarksItem.vue";
+import bookmarks from '../../bookmarks.json';
+import BookMarksItem from './BookMarksItem.vue';
 </script>
 
 <style lang="scss" scoped>
